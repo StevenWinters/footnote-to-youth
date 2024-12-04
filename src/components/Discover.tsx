@@ -1,4 +1,4 @@
-import RandomVideo from "../assets/random-video.mp4";
+import Breh from "../assets/Breh.mp4";
 
 const Discover = () => {
   return (
@@ -8,7 +8,7 @@ const Discover = () => {
           <h2>Discover</h2>
         </header>
         <div className="video__border">
-          <video className="video" src={RandomVideo} controls></video>
+          <video className="video" src={Breh} controls></video>
         </div>
       </div>
     </section>

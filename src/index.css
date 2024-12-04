@@ -474,7 +474,7 @@ p {
 }
 
 .discover__container {
-  margin-top: 50vh;
+  margin-top: 40vh;
 }
 
 .discover__header {
@@ -525,6 +525,10 @@ p {
 }
 
 /* SHOWCASE */
+
+.showcase {
+  margin-top: -15vh;
+}
 
 .showcase__container {
   border-top: 1px solid rgb(255, 255, 255, 0.2);
@@ -583,6 +587,10 @@ p {
 }
 
 /* OVERVIEW */
+
+.overview {
+  margin-top: -15vh;
+}
 
 .overview__content {
   margin-bottom: 5rem;
