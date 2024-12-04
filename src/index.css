@@ -82,6 +82,10 @@ p {
   font-size: 1.6rem;
 }
 
+.link {
+  text-decoration: none;
+}
+
 @media screen and (min-width: 500px) {
   p {
     font-size: 2rem;
@@ -557,6 +561,15 @@ p {
 .showcase__view {
   background: url("assets/showcase-view.png");
   background-size: cover;
+}
+
+.showcase__btn {
+  transition: 0.3s ease;
+}
+
+.showcase__btn:hover {
+  background-color: var(--color-secondary);
+  color: #34654c;
 }
 
 @media screen and (min-width: 1024px) {

@@ -12,8 +12,8 @@ const Showcase = () => {
         <div className="flex flex--column justify--center align--center gap showcase__box showcase__view">
           <img className="img img--showcase" src={ShowcaseIcon} alt="" />
           <h3>Showcase</h3>
-          <Link to="/showcase">
-            <button className="btn btn--primary">View</button>
+          <Link className="link" to="/showcase">
+            <button className="btn btn--primary showcase__btn">View</button>
           </Link>
         </div>
       </div>

@@ -4,13 +4,16 @@ import Footer from "../components/Footer";
 import { useEffect, useState } from "react";
 
 const Layout = () => {
+  const location = useLocation();
   const { pathname } = useLocation();
   const [status, setStatus] = useState(true);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+
     if (pathname === "/") return setStatus(false);
     return setStatus(true);
-  }, [pathname]);
+  }, [pathname, location]);
 
   return (
     <>
