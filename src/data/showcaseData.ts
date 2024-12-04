@@ -11,8 +11,6 @@ import Showcase10 from '../assets/manga/10th.png'
 import Showcase11 from '../assets/manga/11th.png'
 import Showcase12 from '../assets/manga/12th.png'
 import Showcase13 from '../assets/manga/13th.png'
-import Showcase14 from '../assets/manga/14th.png'
-import Showcase15 from '../assets/manga/15th.png'
 import Showcase16 from '../assets/manga/16th.png'
 import Showcase17 from '../assets/manga/17th.png'
 import Showcase18 from '../assets/manga/18th.png'
@@ -38,8 +36,6 @@ export const showcaseData = [
     Showcase11,
     Showcase12,
     Showcase13,
-    Showcase14,
-    Showcase15,
     Showcase16,
     Showcase17,
     Showcase18,
