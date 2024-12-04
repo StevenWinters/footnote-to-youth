@@ -43,7 +43,6 @@ export const showcaseData = [
     Showcase20,
     Showcase21,
     Showcase22,
-    Showcase22,
     Showcase23,
     Showcase24,
     Showcase25,
